@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ------------------- Sunnatbek Qadamov "Service section" background images ------------------------- */
+
+.service_card:nth-child(1) {
+    background-image: url(./assets/images/car1.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.service_card:nth-child(2) {
+    background-image: url(./assets/images/car2.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.service_card:nth-child(3) {
+    background-image: url(./assets/images/car3.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.service_card:nth-child(4) {
+    background-image: url(./assets/images/car4.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.service_card:nth-child(5) {
+    background-image: url(./assets/images/car5.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.service_card:nth-child(6) {
+    background-image: url(./assets/images/car6.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+/* ------------------- Sunnatbek Qadamov "Service section" background images end ------------------------- */
