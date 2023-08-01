@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- build css -->
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./style.css">
     <title>starter</title>
 </head>
-<body>
-    
+<body class="bg-[#282828]">
+    <header class="p-10">
+        <div class="max-w-[1360px] bg-[url('./assets/images/Background.jpg')] bg-no-repeat  mx-auto  py-12 px-20 rounded-[50px] ok">
+            <nav class="flex items-center justify-between ">
+                <div class="flex items-center gap-x-[72px]">
+                    <img src="./assets/images/Logotype.svg" alt="Logotype">
+                    <button class="flex items-center p-[15px] gap-x-2 bg-[#FF001D] rounded-[8px]">
+                        <i class="bx bx-menu text-[17.5px] text-white"></i>
+                        <p class="text-white text-[16px] font-semibold">Услуги</p>
+                    </button>
+                </div>
+
+                <ul class="flex items-center gap-x-14">
+                    <li class="text-white text-[16px] font-medium cursor-pointer hover:underline duration-500">Работы</li>
+                    <li class="text-white text-[16px] font-medium cursor-pointer hover:underline duration-500">О компании</li>
+                    <li class="text-white text-[16px] font-medium cursor-pointer hover:underline duration-500">Акции</li>
+                    <li class="text-white text-[16px] font-medium cursor-pointer hover:underline duration-500">Контакты</li>
+                    <li class="text-white text-[16px] font-medium cursor-pointer hover:underline duration-500">+7 495 207-75-70</li>
+                </ul>
+            </nav>
+
+            <div class="nav_bt mt-[119px]">
+                <h1 class="text-[64px] text-white w-[612px] font-medium mb-8">Премиальное обслуживание вашего автомобиля</h1>
+                <div class="flex items-center gap-x-4">
+                    <button class="w-[260px] py-6 px-10 rounded-[16px] bg-[#FF001D] text-[18px] text-white">
+                         Запись в сервис >
+                    </button>
+
+                    <button class="w-[253px] flex items-center gap-x-1 text-[18px] text-white rounded-[16px] border py-6 px-10 border-2px border-[rgba(255,255,255,0.20)]">
+                        <i class='bx bx-message-rounded-detail'></i>
+                        <p>Консультация</p>
+                    </button>
+                </div>
+
+                
+            </div>
+        </div>
+    </header>
 </body>
 </html>

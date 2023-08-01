@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Manrope';
+}
+
+nav{
+    border-bottom: 1px solid #282828;
+    padding-bottom: 48px;
+}
+
+.ok{
+    background-size: cover;
+    background-position: center center ;
+}
